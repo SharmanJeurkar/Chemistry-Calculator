@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
+@RequestMapping("/Chemistry-Calculator/")
 public class HomeController 
 {
 	@RequestMapping("/")
