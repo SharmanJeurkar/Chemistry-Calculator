@@ -20,4 +20,15 @@ public class HomeController
 		return "about";
 	}
 	
+	@RequestMapping("/Mole-Calculator")
+	public String callMoleCalculator() 
+	{
+		return "Mole-Calculator";
+	}
+	@RequestMapping("/Avagadros-Number")
+	public String callAvagadrosNumber() {
+		return "Avagadros-Number";
+	}
+	
+	
 }
