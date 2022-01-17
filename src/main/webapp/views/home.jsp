@@ -70,7 +70,7 @@
 
 			<div class="row">
 				<div class="col-lg-3">
-					<div class="card" style="width: 200px">
+					<div class="card border-success" style="width: 200px">
 						<div class="card-block text-center">
 							<p class="h5 text-center mt-2">Mole Calculation</p>
 
@@ -79,7 +79,7 @@
 								is given.....</p>
 
 							<button class="btn btn-outline-success"
-								onclick="location.href='/Chemistry-Calculator/about'"
+								onclick="location.href='/Chemistry-Calculator/Mole-Calculator'"
 								type="button">Calculate</button>
 
 						</div>
@@ -87,7 +87,7 @@
 					</div>
 				</div>
 				<div class="col-lg-2">
-					<div class="card" style="width: 200px">
+					<div class="card border-success" style="width: 200px">
 						<div class="card-block text-center">
 							<p class="h5 text-center mt-2">Avagadro's Number</p>
 
@@ -96,7 +96,7 @@
 								concept.....</p>
 
 							<button class="btn btn-outline-success"
-								onclick="location.href='/Chemistry-Calculator/about'"
+								onclick="location.href='/Chemistry-Calculator/Avagadros-Number'"
 								type="button">Calculate</button>
 
 						</div>
