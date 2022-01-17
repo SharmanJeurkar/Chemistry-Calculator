@@ -63,31 +63,57 @@
 
 			<div class="card"></div>
 
-			<div class="container mt-2">
 
-				<p class="h5 text-left card-subtitle">Following are the formules
-					and their respective links</p>
-				<br>
+			<p class="h5 text-left card-subtitle">Following are the formules
+				and their respective links</p>
+			<br>
 
-				<div class="card" style="width: 200px">
-					
-					<p class="h5 text-center mt-2">Mole Calculation</p>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="card" style="width: 200px">
+						<div class="card-block text-center">
+							<p class="h5 text-center mt-2">Mole Calculation</p>
 
-					<p class="text-center">This formula is used calculate the moles while the mass of the element is given and the molar mass is given.....</p>
-					
-					<button class="btn btn-outline-success" onclick="location.href='/Chemistry-Calculator/about'"
-						type="button">Calculate</button>
+							<p class="text-center">This formula is used calculate the
+								moles while the mass of the element is given and the molar mass
+								is given.....</p>
 
+							<button class="btn btn-outline-success"
+								onclick="location.href='/Chemistry-Calculator/about'"
+								type="button">Calculate</button>
+
+						</div>
+						<br>
+					</div>
+				</div>
+				<div class="col-lg-2">
+					<div class="card" style="width: 200px">
+						<div class="card-block text-center">
+							<p class="h5 text-center mt-2">Avagadro's Number</p>
+
+							<p class="text-center">This formula is used calculate the
+								number of atoms of Element or Compound using the mole
+								concept.....</p>
+
+							<button class="btn btn-outline-success"
+								onclick="location.href='/Chemistry-Calculator/about'"
+								type="button">Calculate</button>
+
+						</div>
+						<br>
+					</div>
 				</div>
 			</div>
-
 		</div>
+
 	</div>
+
+
+
 
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 		crossorigin="anonymous"></script>
-
 </body>
 </html>
