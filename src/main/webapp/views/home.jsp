@@ -65,15 +65,18 @@
 
 			<div class="container mt-2">
 
-				<p class="h4 text-left card-subtitle">Following are the formules
+				<p class="h5 text-left card-subtitle">Following are the formules
 					and their respective links</p>
 				<br>
 
-				<div class="card" style="width: 250px">
+				<div class="card" style="width: 200px">
+					
+					<p class="h5 text-center mt-2">Mole Calculation</p>
 
-					<p class="h5 text-center">Formula 1: Calculating the moles</p>
-
-
+					<p class="text-center">This formula is used calculate the moles while the mass of the element is given and the molar mass is given.....</p>
+					
+					<button class="btn btn-outline-success" onclick="location.href='/Chemistry-Calculator/about'"
+						type="button">Calculate</button>
 
 				</div>
 			</div>
