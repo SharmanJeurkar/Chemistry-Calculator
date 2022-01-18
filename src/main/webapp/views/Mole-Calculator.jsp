@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,6 +53,30 @@
 		</div>
 	</nav>
 
+	<div class="container" style="padding-top:5%;">
+
+		<div class="card px-4 py-5"style="width:650px;">
+			<div class="card-block">
+				<form>
+					<div class="mb-3">
+						<label for="givenMass" class="form-label">Given Mass of
+							Substance</label> 
+							<input type="text" class="form-control" id="givenMass"
+							aria-describedby="emailHelp" style="width:600px" name="givenMass">
+					</div>
+					<div class="mb-3">
+						<label for="molarMass" class="form-label">Molar Mass</label> 
+						<input type="text" class="form-control" id="molarMass" style="width:600px" name="molarMass">
+					</div>
+
+					<button class="btn btn-outline-success"
+								onclick="location.href='/Chemistry-Calculator/Number-Of-Moles'"
+								type="button">Calculate</button>
+
+				</form>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
