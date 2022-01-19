@@ -29,7 +29,7 @@ public class HomeController
 	@RequestMapping("Number-Of-Moles")
 	public String calculateMoles()
 	{
-		return "";	
+		return "Mole-Calculator";	
 	}
 	
 	@RequestMapping("/Avagadros-Number")
