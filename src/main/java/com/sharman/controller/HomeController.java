@@ -25,8 +25,16 @@ public class HomeController
 	{
 		return "Mole-Calculator";
 	}
+	
+	@RequestMapping("Number-Of-Moles")
+	public String calculateMoles()
+	{
+		return "";	
+	}
+	
 	@RequestMapping("/Avagadros-Number")
-	public String callAvagadrosNumber() {
+	public String callAvagadrosNumber() 
+	{
 		return "Avagadros-Number";
 	}
 	
