@@ -57,21 +57,19 @@
 
 		<div class="card px-4 py-5"style="width:650px;">
 			<div class="card-block">
-				<form>
+				<form action="/Chemistry-Calculator/Number-Of-Moles">
 					<div class="mb-3">
 						<label for="givenMass" class="form-label">Given Mass of
 							Substance</label> 
 							<input type="text" class="form-control" id="givenMass"
-							aria-describedby="emailHelp" style="width:600px" name="givenMass">
+							aria-describedby="emailHelp" name="givenMass" style="width:600px">
 					</div>
 					<div class="mb-3">
 						<label for="molarMass" class="form-label">Molar Mass</label> 
-						<input type="text" class="form-control" id="molarMass" style="width:600px" name="molarMass">
+						<input type="text" class="form-control" id="molarMass" name="molarMass" style="width:600px" >
 					</div>
 
-					<button class="btn btn-outline-success"
-								onclick="location.href='/Chemistry-Calculator/Number-Of-Moles'"
-								type="button">Calculate</button>
+					<input class="btn btn-outline-success"	type="submit" value="Calculate">
 
 				</form>
 			</div>
