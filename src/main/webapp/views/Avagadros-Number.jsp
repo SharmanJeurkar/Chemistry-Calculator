@@ -55,6 +55,32 @@
 		</div>
 	</nav>
 
+	<div class="container" style="padding-top: 5%;">
+
+		<div class="card px-4 py-5" style="width: 650px;">
+			<div class="card-block">
+				<form action="/Chemistry-Calculator/Avagadro's-Number-Result">
+					<div class="mb-3">
+						<label for="givenMass" class="form-label">Number of Moles
+							Substance</label> <input type="text" class="form-control" id="moles"
+							aria-describedby="emailHelp" name="moles"
+							value="${moles}" style="width: 600px">
+					</div>
+					
+
+					<div class="mb-3">
+						<label for="molarMass" class="form-label">Result</label> <input
+							type="text" readonly="readonly" class="form-control"
+							id="result" name="result" value='${result}' style="width: 600px">
+					</div>
+
+					<input class="btn btn-outline-success" type="submit"
+						value="Calculate">
+
+				</form>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>

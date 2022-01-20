@@ -7,4 +7,10 @@ public class Calculator {
 		return moles;
 	}
 	
+	public double calculateAvagadrosNumber(double moles) {
+		
+		double result= 6.025*moles;
+		return result;
+	}
+	
 }

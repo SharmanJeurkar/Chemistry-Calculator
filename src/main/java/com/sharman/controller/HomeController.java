@@ -43,5 +43,17 @@ public class HomeController {
 	public String callAvagadrosNumber() {
 		return "Avagadros-Number";
 	}
+	
+	@RequestMapping("/Avagadro's-Number-Result")
+	public String calculateAvagadrosNumber(@RequestParam(value = "moles") double moles, Model model) {
+	
+		Calculator calculate = new Calculator();
+		double result=calculate.calculateAvagadrosNumber(moles);
+		String power="10\u00b2\u00b3";
+		System.out.println(power);
+		model.addAttribute("result",result+"x"+power);
+		model.addAttribute("moles",moles);
+		return "Avagadros-Number";
+	}
 
 }
