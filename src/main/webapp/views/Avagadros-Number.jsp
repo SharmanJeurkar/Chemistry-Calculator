@@ -71,7 +71,7 @@
 					<div class="mb-3">
 						<label for="molarMass" class="form-label">Result</label> <input
 							type="text" readonly="readonly" class="form-control"
-							id="result" name="result" value="${result}" style="width: 600px">
+							id="result" name="result" value='${result}' style="width: 600px">
 					</div>
 
 					<input class="btn btn-outline-success" type="submit"
