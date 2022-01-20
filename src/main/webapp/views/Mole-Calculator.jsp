@@ -62,11 +62,16 @@
 						<label for="givenMass" class="form-label">Given Mass of
 							Substance</label> 
 							<input type="text" class="form-control" id="givenMass"
-							aria-describedby="emailHelp" name="givenMass" style="width:600px">
+							aria-describedby="emailHelp" name="givenMass" value= "${givenMass}"style="width:600px">
 					</div>
 					<div class="mb-3">
 						<label for="molarMass" class="form-label">Molar Mass</label> 
-						<input type="text" class="form-control" id="molarMass" name="molarMass" style="width:600px" >
+						<input type="text" class="form-control" id="molarMass" name="molarMass" value= "${molarMass}" style="width:600px" >
+					</div>
+					
+					<div class="mb-3">
+						<label for="molarMass" class="form-label">Moles</label> 
+						<input type="text"  class="form-control" id="molarMass" name="moles" value= "${moles}" style="width:600px" >
 					</div>
 
 					<input class="btn btn-outline-success"	type="submit" value="Calculate">
