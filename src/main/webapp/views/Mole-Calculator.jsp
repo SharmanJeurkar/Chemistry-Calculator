@@ -71,7 +71,7 @@
 					
 					<div class="mb-3">
 						<label for="molarMass" class="form-label">Moles</label> 
-						<input type="text"  class="form-control" id="molarMass" name="moles" value= "${moles}" style="width:600px" >
+						<input type="text" readonly="readonly" class="form-control" id="molarMass" name="moles" value= "${moles}" style="width:600px" >
 					</div>
 
 					<input class="btn btn-outline-success"	type="submit" value="Calculate">
