@@ -59,7 +59,7 @@
 
 		<div class="card px-4 py-5" style="width: 650px;">
 			<div class="card-block">
-				<form action="/Chemistry-Calculator/Number-Of-Moles">
+				<form action="/Chemistry-Calculator/Avagadro's-Number-Result">
 					<div class="mb-3">
 						<label for="givenMass" class="form-label">Given Mass of
 							Substance</label> <input type="text" class="form-control" id="givenMass"
