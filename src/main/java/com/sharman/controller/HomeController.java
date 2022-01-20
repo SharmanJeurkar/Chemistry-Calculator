@@ -49,7 +49,9 @@ public class HomeController {
 	
 		Calculator calculate = new Calculator();
 		double result=calculate.calculateAvagadrosNumber(moles);
-		model.addAttribute("result",result);
+		String power="10\u00b2\u00b3";
+		System.out.println(power);
+		model.addAttribute("result",result+"x"+power);
 		model.addAttribute("moles",moles);
 		return "Avagadros-Number";
 	}
