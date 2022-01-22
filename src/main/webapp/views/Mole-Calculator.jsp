@@ -53,33 +53,55 @@
 		</div>
 	</nav>
 
-	<div class="container" style="padding-top:5%;">
+	<div class="container" style="padding-top: 5%;">
 
-		<div class="card px-4 py-5"style="width:650px;">
+		<div class="btn-group">
+			<button type="button" class="btn btn-danger dropdown-toggle"
+				data-bs-toggle="dropdown" aria-expanded="false">Action</button>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#">Action</a></li>
+				<li><a class="dropdown-item" href="#">Another action</a></li>
+				<li><a class="dropdown-item" href="#">Something else here</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="#">Separated link</a></li>
+			</ul>
+		</div>
+
+		<div class="card px-4 py-5" style="width: 650px;">
 			<div class="card-block">
 				<form action="/Chemistry-Calculator/Number-Of-Moles">
+
 					<div class="mb-3">
 						<label for="givenMass" class="form-label">Given Mass of
-							Substance</label> 
-							<input type="text" class="form-control" id="givenMass"
-							aria-describedby="emailHelp" name="givenMass" value= "${givenMass}"style="width:600px">
+							Substance</label> <input type="text" class="form-control" id="givenMass"
+							aria-describedby="emailHelp" name="givenMass"
+							value="${givenMass}" style="width: 600px">
 					</div>
 					<div class="mb-3">
-						<label for="molarMass" class="form-label">Molar Mass</label> 
-						<input type="text" class="form-control" id="molarMass" name="molarMass" value= "${molarMass}" style="width:600px" >
-					</div>
-					
-					<div class="mb-3">
-						<label for="molarMass" class="form-label">Moles</label> 
-						<input type="text" readonly="readonly" class="form-control" id="molarMass" name="moles" value= "${moles}" style="width:600px" >
+						<label for="molarMass" class="form-label">Molar Mass</label> <input
+							type="text" class="form-control" id="molarMass" name="molarMass"
+							value="${molarMass}" style="width: 600px">
 					</div>
 
-					<input class="btn btn-outline-success"	type="submit" value="Calculate">
+					<div class="mb-3">
+						<label for="molarMass" class="form-label">Moles</label> <input
+							type="text" readonly="readonly" class="form-control"
+							id="molarMass" name="moles" value="${moles}" style="width: 600px">
+					</div>
+
+					<input class="btn btn-outline-success" type="submit"
+						value="Calculate">
 
 				</form>
 			</div>
 		</div>
 	</div>
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+		<script type="text/javascript" src="../javascript/script.js"></script> 
 
 </body>
 </html>
