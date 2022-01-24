@@ -1,5 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,24 +71,29 @@
 					</div>
 
 					<div class="mb-3">
-						<label for="molarMass" class="form-label">Moles</label> <input
-							type="text" readonly="readonly" class="form-control"
-							id="molarMass" name="moles" value="${moles}" style="width: 600px">
+						<label for="moles" class="form-label">Moles</label> <input
+							type="text" class="form-control" id="moles" name="moles"
+							value="${moles}" style="width: 600px">
 					</div>
 
 					<input class="btn btn-outline-success" type="submit"
 						value="Calculate">
-						
-					<div class="btn-group position-relative">
+
+					<div class="btn-group">
 						<button type="button" class="btn btn-success dropdown-toggle"
-							data-bs-toggle="dropdown" aria-expanded="false">Action</button>
+							data-bs-toggle="dropdown" aria-expanded="false">Choose
+							what to calculate</button>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li><a class="dropdown-item" href="#">Something else
-									here</a></li>
-							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#">Separated link</a></li>
+							<li><a class="dropdown-item" onclick="readonlyForMoles()"
+								href="/Chemistry-Calculator/Moles">Calculate Moles</a></li>
+							<li><a class="dropdown-item"
+								onclick="readonlyForMolarMass()"
+								href="/Chemistry-Calculator/Molar-Mass">Calculate Molar
+									Mass</a></li>
+							<li><a class="dropdown-item"
+								onclick="readonlyForGivenMass()"
+								href="/Chemistry-Calculator/Mole-Calculator/Given-Mass">Calculate Given
+									mass</a></li>
 						</ul>
 					</div>
 
@@ -103,7 +106,7 @@
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 		crossorigin="anonymous"></script>
-	<script type="text/javascript" src="../javascript/script.js"></script>
+	<script type="text/javascript"src="/javascript/script.js"></script>
 
 </body>
 </html>
