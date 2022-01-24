@@ -85,14 +85,14 @@
 							what to calculate</button>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" onclick="readonlyForMoles()"
-								href="/Chemistry-Calculator/Moles">Calculate Moles</a></li>
+								href="#">Calculate Moles</a></li>
 							<li><a class="dropdown-item"
 								onclick="readonlyForMolarMass()"
-								href="/Chemistry-Calculator/Molar-Mass">Calculate Molar
+								href="#">Calculate Molar
 									Mass</a></li>
 							<li><a class="dropdown-item"
 								onclick="readonlyForGivenMass()"
-								href="/Chemistry-Calculator/Mole-Calculator/Given-Mass">Calculate Given
+								href="#">Calculate Given
 									mass</a></li>
 						</ul>
 					</div>
