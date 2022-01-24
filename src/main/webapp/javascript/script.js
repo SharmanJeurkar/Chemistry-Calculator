@@ -1,14 +1,18 @@
 function readonlyForGivenMass() {
-  var x = document.getElementById("givenMass").readOnly;
-  
-}
+			document.getElementById("givenMass").readOnly = true;
+			document.getElementById("molarMass").readOnly = false;
+			document.getElementById("moles").readOnly = false;
+			
+		}
 
-function readonlyForMolarMass() {
-  var x = document.getElementById("molarMass").readOnly;
-  
-}
+		function readonlyForMolarMass() {
+			document.getElementById("givenMass").readOnly = false;
+			document.getElementById("molarMass").readOnly = true;
+			document.getElementById("moles").readOnly = false;
+		}
 
-function readonlyForMoles() {
-  var x = document.getElementById("moles").readOnly;
-  
-}
+		function readonlyForMoles() {
+			document.getElementById("givenMass").readOnly = false;
+			document.getElementById("molarMass").readOnly = false;
+			document.getElementById("moles").readOnly = true;
+		}
