@@ -27,8 +27,8 @@ public class HomeController {
 
 	@RequestMapping("/Number-Of-Moles")
 	public String calculateMoles(@RequestParam(value = "givenMass",  required=false) Double givenMassInput,
-			@RequestParam(value = "molarMass",  required=false) Double molarMassInput,
-			@RequestParam(value = "moles",  required=false) Double molesInput, Model model) {
+								 @RequestParam(value = "molarMass",  required=false) Double molarMassInput,
+								 @RequestParam(value = "moles",  required=false) Double molesInput, Model model) {
 
 		Calculator calculate = new Calculator();
 
@@ -37,7 +37,7 @@ public class HomeController {
 			model.addAttribute("givenMass", givenMassInput);
 			model.addAttribute("molarMass", molarMassInput);
 			model.addAttribute("moles", moles);
-			
+
 		}else if (givenMassInput == null) {
 			double givenMass = calculate.calculateGivenMass(molarMassInput, molesInput);
 			model.addAttribute("molarMass", molarMassInput);
