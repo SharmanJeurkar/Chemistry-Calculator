@@ -54,6 +54,18 @@
 			</div>
 		</div>
 	</nav>
-	<h3>This is about page!</h3>
+	<div class="container" style="padding-top:5%;">
+	
+		<h3>
+			<b>About Us</b>
+		</h3>
+		<p class="h5">We are a small organization which works for children and their
+			education. We always promote technology which helps children learn
+			more and gain more knowledge. We develop small calculators for
+			children to understand basic concepts. We give detailed information
+			about that formula. We hope you enjoy and get our effort to give
+			children more and more knowledge.</p>
+	</div>
+
 </body>
 </html>
