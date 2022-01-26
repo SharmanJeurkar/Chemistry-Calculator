@@ -55,7 +55,7 @@
 		</div>
 	</nav>
 	<div class="container" style="padding-top:5%;">
-	
+	<img class="rounded mx-auto d-block" style="width: 70px"alt="DSP LOGO" src="https://seeklogo.com/images/D/DSP-logo-6208B68C4E-seeklogo.com.png">
 		<h3>
 			<b>About Us</b>
 		</h3>
