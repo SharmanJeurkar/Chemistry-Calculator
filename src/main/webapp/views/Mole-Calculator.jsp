@@ -86,7 +86,7 @@
 			</div>
 			<div class="col-lg-2" style="padding-left: 340px">
 				<div class="card" style="width: 520px">
-					<p class=" card-body h5" style="padding-bottom: 7px">When elements and compounds take part in chemical
+					<p class=" card-body text-white bg-success h5" style="padding-bottom: 7px">When elements and compounds take part in chemical
 						reactions, it is their atoms and molecules that react with each
 						other, and therefore it is necessary to know the numbers of their
 						atoms and molecules. However, while carrying out a chemical
