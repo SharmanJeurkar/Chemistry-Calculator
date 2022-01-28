@@ -56,28 +56,44 @@
 	</nav>
 
 	<div class="container" style="padding-top: 5%;">
+		<div class="row">
+			<div class="card px-4 py-5" style="width: 650px;">
+				<div class="card-block">
+					<form action="/Chemistry-Calculator/Avagadro's-Number-Result">
+						<div class="mb-3">
+							<label for="givenMass" class="form-label">Number of Moles
+								Substance</label> <input type="text" class="form-control" id="moles"
+								aria-describedby="emailHelp" name="moles" value="${moles}"
+								style="width: 600px">
+						</div>
 
-		<div class="card px-4 py-5" style="width: 650px;">
-			<div class="card-block">
-				<form action="/Chemistry-Calculator/Avagadro's-Number-Result">
-					<div class="mb-3">
-						<label for="givenMass" class="form-label">Number of Moles
-							Substance</label> <input type="text" class="form-control" id="moles"
-							aria-describedby="emailHelp" name="moles"
-							value="${moles}" style="width: 600px">
-					</div>
-					
 
-					<div class="mb-3">
-						<label for="molarMass" class="form-label">Result</label> <input
-							type="text" readonly="readonly" class="form-control"
-							id="result" name="result" value='${result}' style="width: 600px">
-					</div>
+						<div class="mb-3">
+							<label for="molarMass" class="form-label">Result</label> <input
+								type="text" readonly="readonly" class="form-control" id="result"
+								name="result" value='${result}' style="width: 600px">
+						</div>
 
-					<input class="btn btn-outline-success" type="submit"
-						value="Calculate">
+						<input class="btn btn-outline-success" type="submit"
+							value="Calculate">
 
-				</form>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-2" style="padding-left: 340px">
+			<div class="card bg-success text-white" style="width: 520px">
+				<p class="card-body h5" style="padding-bottom: 8px">The number
+					of molecules in one mole of any substance is constant. The Italian
+					scientist Avogadro did fundamental work in this context. Therefore
+					this number is called Avogadro's number and is denoted by the
+					symbol NA. Later scientists demonstrated experimentally that the
+					value of Avogadro's number is 6.022 x 1023. A mole of any substance
+					stands for 6.022 x 1023 molecules. Just as a dozen has 12 items, a
+					century has 100 or a gross has 144, a mole means 6.022 x 1023. For
+					example, a mole of water, that is, 18g of water contains 6.022 x
+					1023 molecules of water. How many molecules are there in 66 g of
+					CO2 ? Method : molecular mass of CO 2 is 44.</p>
 			</div>
 		</div>
 	</div>
