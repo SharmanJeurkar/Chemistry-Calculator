@@ -64,9 +64,12 @@
 			<div class="card"></div>
 
 
-			<p class="h5 text-left card-subtitle">Following are the formules
-				and their respective links</p>
-			<br>
+			<div class="card-body">
+				<p class="h5 text-center">This is a simple page which allows
+				users to calculate chemistry values. It contains many different fomrulas
+				which will help students to calculate fast. To use this website, first you will have to click
+				on the link of the formulas, and enter the values except the on which you have to calculate. </p>
+			</div>
 
 			<div class="row">
 				<div class="col-lg-3">
