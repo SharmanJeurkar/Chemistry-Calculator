@@ -32,7 +32,15 @@ jobs:
   -name: Download an build artifact
   uses: actions/download-artifact@v2.1.0
       with:
+           on:
+     pull_request:
+       branches: [ master ]
+
+  -name: Download an build artifact
+  uses: actions/download-artifact@v2.1.0
+      with:
           # Artifact name
           name: Chemistry-Caclulator
           # Destination path
           path: # optional
+
