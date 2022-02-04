@@ -55,28 +55,28 @@ public class HomeController {
 	  
 	  return "Mole-Calculator"; }
 	 
-	@RequestMapping("/Avagadros-Number")
-	public String callAvagadrosNumber() {
-		return "Avagadros-Number";
+	@RequestMapping("/Avogadros-Number")
+	public String callAvogadrosNumber() {
+		return "Avogadros-Number";
 	}
 
 	@RequestMapping("/Avagadro's-Number-Result")
-	public String calculateAvagadrosNumber(@RequestParam(value = "moles") double moles, Model model) {
+	public String calculateAvogadrosNumber(@RequestParam(value = "moles") double moles, Model model) {
 
 		Calculator calculate = new Calculator();
-		double result = calculate.calculateAvagadrosNumber(moles);
+		double result = calculate.calculateAvogadrosNumber(moles);
 		String power = "10\u00b2\u00b3";
 		System.out.println(power);
 		model.addAttribute("result", result + "x" + power);
 		model.addAttribute("moles", moles);
-		return "Avagadros-Number";
+		return "Avogadros-Number";
 	}
 	
 	@PostMapping("/Calculate-Avogadros-With-Moles")
 	public String redirectToAvogadrosPage(@RequestParam(value = "moles")double moles, Model model) {
 		model.addAttribute("moles",moles);
 		System.out.println(moles);
-		return "Avagadros-Number";
+		return "Avogadros-Number";
 	}
 
 }
