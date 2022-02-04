@@ -73,7 +73,9 @@ public class HomeController {
 	}
 	
 	@PostMapping("/Calculate-Avogadros-With-Moles")
-	public String btn2() {
+	public String redirectToAvogadrosPage(@RequestParam(value = "moles")double moles, Model model) {
+		model.addAttribute("moles",moles);
+		System.out.println(moles);
 		return "Avagadros-Number";
 	}
 
