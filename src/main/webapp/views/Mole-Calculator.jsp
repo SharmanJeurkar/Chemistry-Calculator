@@ -80,7 +80,7 @@
 								value="Calculate">
 
 							<input class="btn btn-outline-success" type="submit" formaction="/Chemistry-Calculator/Calculate-Avogadros-With-Moles"
-								value="Calculate Number of moles">
+								value="Calculate Number of Molecules/Atoms">
 
 							<div class="btn-group">
 								<button type="button" class="btn btn-success dropdown-toggle"

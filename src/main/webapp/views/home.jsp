@@ -99,7 +99,7 @@
 								concept.....</p>
 
 							<button class="btn btn-outline-success"
-								onclick="location.href='/Chemistry-Calculator/Avagadros-Number'"
+								onclick="location.href='/Chemistry-Calculator/Avogadros-Number'"
 								type="button">Calculate</button>
 
 						</div>
