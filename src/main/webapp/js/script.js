@@ -11,7 +11,7 @@ function readonlyForMolarMass() {
 }
   
 
- function readonlyForMoles() {
+ function readonlyForMole() {
      document.getElementById("givenMass").readOnly = false;
      document.getElementById("molarMass").readOnly = false;
     document.getElementById("moles").readOnly = true;
