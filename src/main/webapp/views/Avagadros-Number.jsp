@@ -80,6 +80,7 @@
 								value="Calculate">
 
 						</form>
+						
 					</div>
 				</div>
 			</div>
